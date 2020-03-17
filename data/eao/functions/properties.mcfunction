@@ -24,6 +24,12 @@ scoreboard players set eaoOverLimit eao_ypos 275
 # Define the Y position maximum limit
 scoreboard players set eaoEndLimit eao_ypos -20
 
+# Show particules
+# If set to 1 : clouds particules on world transition
+# If set to 0 : no more particules on world transition
+scoreboard players set EaoShowParticules eao_ypos 1
+
 # Affect entities
+# If set to 1 : items and mobs will be teleported as well
 # If set to 0 : items and mobs won't be teleported in the overworld (they will die)
 scoreboard players set EaoAffectEntities eao_ypos 1

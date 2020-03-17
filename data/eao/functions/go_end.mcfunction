@@ -1,2 +1,2 @@
 execute positioned as @s in the_end run tp @s ~ -3 ~
-tag @s[type=minecraft:player] add eao_slowfall
+tag @s[type=minecraft:player] add eao_transition
