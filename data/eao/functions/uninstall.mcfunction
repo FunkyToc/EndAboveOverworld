@@ -1,4 +1,3 @@
-# eao:uninstall
-scoreboard players remove eao_ypos
+scoreboard players remove EAO_ypos
 datapack disable "file/EndAboveOverworld"
 datapack disable "file/EndAboveOverworld-master"
