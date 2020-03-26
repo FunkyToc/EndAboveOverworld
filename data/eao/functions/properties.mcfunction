@@ -14,12 +14,12 @@
 # Overworld top limit
 # Define the Y position minimum limit
 # Default : 275
-scoreboard players set eaoOverLimit EAO_ypos 275
+scoreboard players set EaoOverLimit EAO_ypos 275
 
 # End bottom limit
 # Define the Y position maximum limit
 # Default : -20
-scoreboard players set eaoEndLimit EAO_ypos -20
+scoreboard players set EaoEndLimit EAO_ypos -20
 
 # Show particules
 # If set to 1 : clouds particules on world transition
