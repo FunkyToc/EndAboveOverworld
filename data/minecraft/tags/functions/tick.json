@@ -1,6 +1,5 @@
 {
-  "replace": false,
-  "values": [
-    "eao:loop"
-  ]
+	"values": [
+		"eao:loop"
+	]
 }

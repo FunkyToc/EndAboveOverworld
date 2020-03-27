@@ -1,6 +1,5 @@
 {
-  "replace": true,
-  "values": [
-    "eao:load"
-  ]
+	"values": [
+		"eao:load"
+	]
 }
