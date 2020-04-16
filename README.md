@@ -1,7 +1,7 @@
 # EndAboveOverworld
 A Minecraft datapack to add a link between the top of the Overworld and the bottom of the End.
 
-# Requires 
+# Requires
 - Minecraft 1.13 / 1.14 / 1.15 / 1.16
 
 # Use
@@ -15,5 +15,5 @@ A Minecraft datapack to add a link between the top of the Overworld and the bott
 - Contact : http://naturize.fr/contact
 - Original concept by franswa : https://www.youtube.com/watch?v=ZZBu9OcX17E
 
-# Thanks 
+# Thanks
 ...
