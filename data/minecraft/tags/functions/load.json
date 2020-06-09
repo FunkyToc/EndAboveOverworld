@@ -1,5 +1,6 @@
 {
 	"values": [
+		"fktool:load",
 		"eao:load"
 	]
 }
