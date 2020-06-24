@@ -30,3 +30,8 @@ scoreboard players set EaoShowParticules EAO_ypos 1
 # If set to 1 : items and mobs will be teleported as well
 # If set to 0 : items and mobs won't be teleported in the overworld (they will be killed)
 scoreboard players set EaoAffectEntities EAO_ypos 0
+
+# Custom worlds (see the "dimensions/" folder to add your own)
+# If set to 1 : enable custom worlds loading
+# If set to 0 : disable custom worlds loading
+scoreboard players set EaoCustomWorlds EAO_ypos 0
