@@ -27,6 +27,7 @@ scoreboard players set EaoEndLimit EAO_ypos -20
 scoreboard players set EaoShowParticules EAO_ypos 1
 
 # Affect entities (LAGGY FEATURE)
+# Only End-to-Over, in a 128 blocks range of every players in the End
 # If set to 1 : items and mobs will be teleported as well
 # If set to 0 : items and mobs won't be teleported in the overworld (they will be killed)
 scoreboard players set EaoAffectEntities EAO_ypos 0
