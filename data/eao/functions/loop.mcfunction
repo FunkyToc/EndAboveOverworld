@@ -1,7 +1,7 @@
 # players tp
 execute as @a store result score @s EAO_ypos run data get entity @s Pos[1]
-execute if score McVersion fktool matches ..115 run function eao:check_1.15
-execute if score McVersion fktool matches 116.. run function eao:check_1.16
+execute if score McVersion fktool matches ..11500 run function eao:check_1.15
+execute if score McVersion fktool matches 11600.. run function eao:check_1.16
 # items and mobs fall
 execute if score EaoAffectEntities EAO_ypos matches 1 at @a as @e[distance=..128,type=!minecraft:player,nbt={OnGround:0b,Dimension:1},type=!minecraft:ender_dragon,type=!minecraft:shulker_bullet,type=!minecraft:item_frame] store result score @s EAO_ypos run data get entity @s Pos[1]
 execute if score EaoAffectEntities EAO_ypos matches 1 at @a as @e[distance=..128,type=!minecraft:player,nbt={OnGround:0b,Dimension:1},type=!minecraft:ender_dragon,type=!minecraft:shulker_bullet,type=!minecraft:item_frame] if score @s EAO_ypos < EaoEndLimit EAO_ypos run function eao:go_overworld
