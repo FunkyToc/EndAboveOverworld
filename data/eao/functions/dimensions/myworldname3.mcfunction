@@ -11,9 +11,9 @@
 # Top limit
 scoreboard players set Myworld3TopLimit EAO_ypos 256
 # If above the top limit, the player will go in...
-execute as @a[nbt={Dimension:"namespace:thisworldname"}] if score @s EAO_ypos < MyWorldBottomLimit EAO_ypos at @s in namespace:worldname_to_go_up run tp @s ~ -1 ~
+execute as @a[nbt={Dimension:"namespace:thisworldname"}] if score @s EAO_ypos > Myworld3TopLimit EAO_ypos at @s in namespace:worldname_to_go_up run tp @s ~ 256 ~
 
 # Bottom limit
 scoreboard players set Myworld3BottomLimit EAO_ypos -1
 # If under the bottom limit, the player will go in...
-execute as @a[nbt={Dimension:"namespace:thisworldname"}] if score @s EAO_ypos > MyWorldTopLimit EAO_ypos at @s in namespace:worldname_to_go_down run tp @s ~ 256 ~
+execute as @a[nbt={Dimension:"namespace:thisworldname"}] if score @s EAO_ypos < Myworld3BottomLimit EAO_ypos at @s in namespace:worldname_to_go_down run tp @s ~ -1 ~
