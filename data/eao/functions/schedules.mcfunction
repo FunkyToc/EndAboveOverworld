@@ -1,0 +1,1 @@
+execute if score McVersion fktool matches ..11499 run function eao:schedule/reset_scoreboard

@@ -1,0 +1,1 @@
+execute at @a[predicate=fktool:location/in_end] positioned ~ 0 ~ as @e[distance=..32,predicate=eao:end_falling_entities] run function eao:system/go_overworld

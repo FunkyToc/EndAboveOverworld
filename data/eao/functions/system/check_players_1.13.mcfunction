@@ -1,0 +1,2 @@
+execute as @a[nbt={Dimension:1}] if score @s EAO_Ypos < EndLimit EAO_Option run function eao:system/go_overworld
+execute as @a[nbt={Dimension:0}] if score @s EAO_Ypos > OverLimit EAO_Option run function eao:system/go_end

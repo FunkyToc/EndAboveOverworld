@@ -14,25 +14,25 @@
 # Overworld top limit
 # Define the Y position minimum limit
 # Default : 275 | Minimum : 270
-scoreboard players set EaoOverLimit EAO_ypos 275
+scoreboard players set OverLimit EAO_Option 275
 
 # End bottom limit
 # Define the Y position maximum limit
 # Default : -20 | Maximum : -5
-scoreboard players set EaoEndLimit EAO_ypos -20
+scoreboard players set EndLimit EAO_Option -20
 
 # Show particules
 # If set to 1 : clouds particules on world transition
 # If set to 0 : no more particules on world transition
-scoreboard players set EaoShowParticules EAO_ypos 1
+scoreboard players set ShowParticules EAO_Option 1
 
 # Affect entities (LAGGY FEATURE)
 # Only End-to-Over, in a 128 blocks range of every players in the End
 # If set to 1 : items and mobs will be teleported as well
 # If set to 0 : items and mobs won't be teleported in the overworld (they will be killed)
-scoreboard players set EaoAffectEntities EAO_ypos 0
+scoreboard players set AffectEntities EAO_Option 1
 
 # Custom worlds (see the "dimensions/" folder to add your own)
 # If set to 1 : enable custom worlds loading
 # If set to 0 : disable custom worlds loading
-scoreboard players set EaoCustomWorlds EAO_ypos 0
+scoreboard players set CustomWorlds EAO_Option 0

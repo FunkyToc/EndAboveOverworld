@@ -1,3 +1,0 @@
-execute at @a[nbt={Dimension:1}] as @e[distance=..128,type=!minecraft:player,nbt={OnGround:0b},type=!minecraft:ender_dragon,type=!minecraft:shulker_bullet,type=!minecraft:item_frame] store result score @s EAO_ypos run data get entity @s Pos[1]
-execute at @a[nbt={Dimension:1}] as @e[distance=..128,type=!minecraft:player,nbt={OnGround:0b},type=!minecraft:ender_dragon,type=!minecraft:shulker_bullet,type=!minecraft:item_frame] if score @s EAO_ypos < EaoEndLimit EAO_ypos run function eao:go_overworld
-scoreboard players reset @e[type=!minecraft:player] EAO_ypos
